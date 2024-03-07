@@ -51,7 +51,7 @@ header .wrapper__sectbar .list-item a {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 190px;
-  height: 793px;
+  height: 100vh;
 }
 #intro .wrapper__upside .title {
   font-family: Montserrat, sans-serif;
@@ -61,6 +61,7 @@ header .wrapper__sectbar .list-item a {
   letter-spacing: 0.200000003px;
   text-align: left;
   color: #252B42;
+  padding-bottom: 20px;
 }
 #intro .wrapper__upside .description {
   font-family: Montserrat, sans-serif;
@@ -253,7 +254,7 @@ header .wrapper__sectbar .list-item a {
   flex-direction: column;
 }
 #practice .wrapper__cards .card-content h4 {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 23px;
   font-weight: 700;
   line-height: 24px;
@@ -263,7 +264,7 @@ header .wrapper__sectbar .list-item a {
   padding-bottom: 20px;
 }
 #practice .wrapper__cards .card-content p {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -271,4 +272,87 @@ header .wrapper__sectbar .list-item a {
   text-align: left;
   color: #737373;
   padding-bottom: 50px;
+}
+
+#title {
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#title .wrapper .wrapper__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#title .wrapper .wrapper__title h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #252B42;
+  padding-bottom: 20px;
+}
+#title .wrapper .wrapper__title p {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+}
+
+#trusted .wrapper {
+  display: flex;
+  gap: 120px;
+  padding-left: 150px;
+}
+#trusted .wrapper .wrapper__right .wrapper__title h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #252B42;
+}
+#trusted .wrapper .wrapper__right .wrapper__title p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #737373;
+}
+#trusted .wrapper .wrapper__right .wrapper__infos {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 50px;
+}
+#trusted .wrapper .wrapper__right .wrapper__infos .info-first {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#trusted .wrapper .wrapper__right .wrapper__infos .info-first .info-title h5 {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #252B42;
+}
+#trusted .wrapper .wrapper__right .wrapper__infos .info-first .info-title p {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #737373;
 }/*# sourceMappingURL=style.css.map */
